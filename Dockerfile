@@ -40,5 +40,4 @@ ADD templates /app/templates
 ADD *.py /app/
 
 # Start server using gunicorn
-CMD ["gunicorn", "--preload"]
 CMD gunicorn -b :$PORT --threads 4 --log-level=info flask_server:APP
