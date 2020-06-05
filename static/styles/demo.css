@@ -21,7 +21,7 @@
   background-color: #fafbfe !important;
 }
 .navbar-top {
-  background-color: #313a46;
+  background-color: #0078d4;
   min-height: 80px;
   color: #98a6ad;
   position: relative;
@@ -86,7 +86,7 @@
   vertical-align: bottom;
   font-size: 20px;
   margin-right: 5px;
-  color: #313a46;
+  color: #0078d4;
 }
 .account-num-text {
   font-weight: 600;
@@ -175,7 +175,7 @@ p {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   transform: translateY(-5px) scale(1.005) translateZ(0);
-  background-color: #313a46;
+  background-color: #0078d4;
   color: white;
 }
 .fa-icon-spacer {
